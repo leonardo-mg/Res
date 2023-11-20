@@ -1,0 +1,172 @@
+:root{
+    --blanco: #ffffff;
+    --verde-claro: #009341;
+    --amarillo: #FFC107;
+    --azul: #1B396A;
+    --secundario: #0097A7;
+    --verde: #0B211C;
+    --grisClaro: #DFE9F3;
+}
+/* GLOBALES */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 13px;
+    font-family: 'Montserrat',sans-serif,;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.header-nav{
+    background-color: var(--verde);
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+}
+.section-logo{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+.header-logo{
+    width: 12rem;
+    margin-left: 15px;
+    user-select: none;
+    outline: none;
+}
+.header-links{
+    display: flex;
+    justify-content: center;
+}
+.header-navgob{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+.link-gob{
+    margin-right: 1rem;
+}
+.link-part{
+    margin-right: 1rem;
+}
+.link-data{
+    margin-right: 1rem;
+}
+.header-navgob a{
+    color: #ffffff;
+}
+.iconGob{
+    fill: #ffffff;
+    stroke: #ffffff;
+    width: 3rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+.main-tittle{
+    background-color: var(--azul);
+    color: var(--amarillo);
+    font-family: 'Inria Sans';
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.main-bg{
+    
+}
+.bg{
+    width: 134.9rem;
+    height: 60rem;
+}
+.main-login{
+    position: absolute;
+    margin-left: 350px;
+    top: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    padding-bottom: 10rem;
+    border-radius: 8px;
+    width: 350px;
+    height: 400px;
+    top: 50%; /* Posición vertical centrada en relación con el cuerpo */
+    left: 50%; /* Posición horizontal centrada en relación con el cuerpo */
+    transform: translate(-50%, -50%);
+    margin-top: 70px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-login input{
+    border-radius: 10px;
+    height: 3.5rem;
+    width: 25rem;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+}
+.form-login input:focus{
+    border: 2px solid #000000;
+    outline: none;
+}
+.login-text{
+    color: #000000;
+    font-family: 'Monstserrat';
+    font-size: 3.5rem;
+    padding-top: 3rem;
+    margin-bottom: 8rem;
+}
+.bttn{
+    background-color: var(--verde-claro);
+    color: var(--blanco);
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.bttn:hover{
+    background-color: var(--amarillo);
+    color: var(--blanco);
+}
+@media (min-width: 768px) {
+    .boton{
+         width: auto;
+    }
+}
+.input-email{
+    margin-bottom: 3rem;
+}
+.input-password{
+    margin-bottom: 3rem;
+}
+/*.container-loginText{
+    display: flex;
+    justify-content: center;
+    
+    position: absolute;
+    bottom: 60%;
+}*/
+    
+
