@@ -1,10 +1,3 @@
-<?php
-    session_start();
-    require_once "modelos/Alumno.php";
-    require_once "modelos/Admin.php";
-    $alumno = new Alumno(); 
-    $admin = new Admin();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +13,7 @@
 </head>
 <body>
     <?php
-    require_once 'controladores/controlador_index.php';
+        require_once 'app.php';
     ?>
 </body>
 

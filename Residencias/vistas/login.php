@@ -1,3 +1,5 @@
+<!-- Css  -->
+<link rel="stylesheet" href="css/index.css">
 
 <main id="main-section">
     <div class="main-tittle">
@@ -8,8 +10,8 @@
             <h3 class="login-text">Inicio de sesión</h3>
         </div>
         <div class="form-login">
-            <form class="login-form" action="?" method="post">
-                <input class="input-email" name="user" type="text" placeholder="Correo Institucional">
+            <form class="login-form" action="index.php" method="POST">
+                <input class="input-email" name="correo" type="text" placeholder="Correo Institucional">
                 <input class="input-password" name="pass" type="password" placeholder="Contraseña">
                 <input class="bttn" name="login" type="submit" value="Ingresar">
             </form>

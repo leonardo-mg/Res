@@ -1,5 +1,6 @@
 <?php
 require_once "Base.php";
+
 class Admin{
 
     var $alumnos = array();

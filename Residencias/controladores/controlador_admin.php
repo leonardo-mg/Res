@@ -1,13 +1,15 @@
 <?php
-$siEsVacio = empty($_GET["p"]);
-$siExiste = isset($_GET["p"]);
+# Variables
 $ruta = "vistas/admin/";
+
+# Validaciones
 require_once "validaciones/v_index.php";
 //require_once "validaciones/index.php";
 //$tablaEjercicios = array();
 
-if (!$siEsVacio && $siExiste) {
+if ($siHayPaginador) {
     $numeroPagina = $_GET["p"];
+
     switch ($numeroPagina) {//cuerpo de la pagina
         case 1:
             require_once "vistas/vista_header.php";
@@ -30,8 +32,8 @@ if (!$siEsVacio && $siExiste) {
             require_once "vistas/cuenta.php";//registro
             break;
         default:
-        require_once "vistas/vista_header.php";
-        require_once $ruta."home.php";//home
+            require_once "vistas/vista_header.php";
+            require_once $ruta."home.php";//home
         break;
     }
 }else{
