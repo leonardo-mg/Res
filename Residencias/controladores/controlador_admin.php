@@ -2,7 +2,7 @@
 $siEsVacio = empty($_GET["p"]);
 $siExiste = isset($_GET["p"]);
 $ruta = "vistas/admin/";
-//require_once "validaciones/v_index.php";
+require_once "validaciones/v_index.php";
 //require_once "validaciones/index.php";
 //$tablaEjercicios = array();
 

@@ -7,7 +7,6 @@ if(empty($_SESSION['user'])){
         echo'<link rel="stylesheet" href="css/index.css">?';
        require_once "vistas/login.php";
     }
-    echo "tipo-> ".$alumno->tipo;
 }else if($_SESSION['tipo'] == 1){
     echo "Admin";
     require_once "controladores/controlador_admin.php";
