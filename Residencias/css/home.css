@@ -47,10 +47,12 @@ body{
     color: #ffffff;
     font-family: 'Montserrat';
     font-size: 2rem;
+    text-decoration: none
 }
 a:hover{
     background-color: #FFFFFF;
     color: #000000;
+    border-radius: .5rem;
 }
 .link-inicio{
     position: relative;
@@ -154,4 +156,29 @@ main{
 select:focus {
     outline: none; /* Elimina el contorno de enfoque predeterminado */
     border-color: #66afe9; /* Cambia el color del borde al enfocar */
+}
+.bttn{
+    background-color: var(--verde-claro);
+    color: var(--blanco);
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+.bttn:hover{
+    background-color: var(--amarillo);
+    color: var(--blanco);
+}
+@media (min-width: 768px) {
+    .boton{
+         width: auto;
+    }
 }

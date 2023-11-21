@@ -47,18 +47,22 @@ body{
     color: #ffffff;
     font-family: 'Montserrat';
     font-size: 2rem;
+    text-decoration: none;
 }
 a:hover{
     background-color: #FFFFFF;
     color: #000000;
+    border-radius: .5rem;
 }
 .link-inicio{
     position: relative;
     left: 350px;
+    text-decoration: none;
 }
 .link-logout{
     position: relative;
     left: 750px;
+    text-decoration: none;
 }
 /*
 @media (min-width: 768px) {

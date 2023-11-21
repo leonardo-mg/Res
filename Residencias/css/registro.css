@@ -48,21 +48,21 @@ body{
     font-family: 'Montserrat';
     font-size: 2rem;
 }
-.link-inicio:hover{
+links a:hover{
     background-color: #FFFFFF;
     color: #000000;
+    border-radius: .5rem;
 }
-.link-logout:hover{
-    background-color: #FFFFFF;
-    color: #000000;
-}
+
 .link-inicio{
     position: relative;
     left: 350px;
+    text-decoration: none;
 }
 .link-logout{
     position: relative;
     left: 750px;
+    text-decoration: none;
 }
 /*
 @media (min-width: 768px) {
@@ -78,7 +78,6 @@ body{
     color: #FFC107;
     padding: 10px;
     margin-bottom: 30px;
-    
 }
 .header-logo{
     height: 90px;
